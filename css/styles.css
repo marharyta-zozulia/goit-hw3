@@ -18,22 +18,28 @@ button{
 }
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: auto;
+    padding: 0 15px;
+    margin-top: 0 auto;
 }
 
 
 
 
 /* ----------HEADER----------- */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
 a,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
+h6
+{
     margin-top: 0;
     margin-bottom: 0;
 
@@ -64,6 +70,37 @@ h6{
 .header-contact-link:focus {
     color: #404bbf
 }
+.header-menu-list{
+  display: flex;
+  gap: 40px;  
+
+}
+.header-contact-item{
+   margin-right: 40px;
+
+}
+.header-contact-item:last-child{
+   margin-right: 0;
+}
+
+.header-contact-information{
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.header-navigation{
+    display: flex;
+    gap: 40px;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    margin-right: 76px;
+}
 
 
 /* ------------------------------------- */
@@ -79,6 +116,8 @@ h6{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    padding: 188px 0 ;
 
 }
 .order-service-button {

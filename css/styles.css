@@ -22,6 +22,12 @@ button{
     margin-top: 0 auto;
 }
 
+ img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+
 
 
 
@@ -29,6 +35,7 @@ button{
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -92,11 +99,14 @@ h6
 .header-navigation{
     display: flex;
     gap: 40px;
+    margin: 0 auto;
+    align-items: center;
 
 }
 .header-container{
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 .header-logo{
     margin-right: 76px;

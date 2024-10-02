@@ -2,6 +2,10 @@ body {
     font-family: "Roboto" , sans-serif;
     color: #434455;
     background: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 
 }
 ul{
@@ -19,7 +23,8 @@ button{
 .container {
     width: 1158px;
     padding: 0 15px;
-    margin-top: 0 auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
  img {
@@ -79,7 +84,8 @@ h6
 }
 .header-menu-list{
   display: flex;
-  gap: 40px;  
+  gap: 40px; 
+  padding: 24px 0; 
 
 }
 .header-contact-item{

@@ -87,6 +87,11 @@ h6
 .header-contact-link:hover{
     color: #404bbf
 }
+
+
+.header-menu-link {
+    padding: 24px 0;
+}
 .header-contact-link:focus {
     color: #404bbf
 }
@@ -115,6 +120,7 @@ h6
     gap: 40px;
     margin: 0 auto;
     align-items: center;
+    padding: 0 15px;
 
 }
 .header-container{
@@ -339,8 +345,8 @@ border-top: none;
 .footer-logo-studio{
     color: #f4f4fd;
 }
-.footer-link {
-    display: inline-block;
+.footer-logo {
+    display: inline-block ;
     margin-bottom: 16px;}
 
 .footer-description {

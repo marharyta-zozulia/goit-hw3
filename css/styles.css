@@ -130,6 +130,8 @@ h6
 .intro-section{
     background-color: #fff;
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
 }
 .intro-title{ 
@@ -151,6 +153,11 @@ h6
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     }
 .order-service-button:hover {
     background-color: #404bbf;

@@ -22,7 +22,6 @@ button{
 }
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -117,7 +116,9 @@ h6
 .header-logo{
     margin-right: 76px;
 }
-
+.header-logo-studio{
+   padding: 24px 0;
+}
 
 /* ------------------------------------- */
 .intro-section{

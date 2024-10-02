@@ -32,6 +32,8 @@ button{
      height: auto;
  }
 
+ 
+
 
 
 
@@ -143,6 +145,7 @@ h6
     color: #fff;
     max-width: 496px;
     padding: 188px 0 ;
+    margin: 0 auto;
 
 }
 .order-service-button {
@@ -158,6 +161,7 @@ h6
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
     }
 .order-service-button:hover {
     background-color: #404bbf;
@@ -167,19 +171,40 @@ h6
     background-color: #404bbf;
 
 }
-.features-section {}
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-.visually-hidden {}
 
-.features-list {}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
-.features-item {}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .features-item-title {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-item-description {

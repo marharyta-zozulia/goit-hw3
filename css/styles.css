@@ -217,6 +217,7 @@ h6
 
 .team-section {
     background-color:#F4F4FD ;
+    padding: 120px 0;
 }
 
 .team-title { font-weight: 700;
@@ -225,12 +226,19 @@ h6
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42;}
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 .team-member {
     background-color: #FFFFFF
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-image { }
@@ -250,6 +258,18 @@ h6
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;}
+
+.team-member-name{
+ margin-bottom: 8px;   
+}
+
+
+.member-info { 
+    padding: 32px 0;
+    text-align: center;
+    
+
+}
 
 .portfolio-title{
 font-weight: 700;
@@ -279,6 +299,7 @@ font-weight: 700;
 }
 .footer {
     background-color:#2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -294,6 +315,9 @@ font-weight: 700;
 .footer-logo-studio{
     color: #f4f4fd;
 }
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;}
 
 .footer-description {
     font-weight: 400;
@@ -301,4 +325,5 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }

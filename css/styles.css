@@ -247,6 +247,7 @@ font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -315,7 +316,7 @@ font-weight: 700;
 }
 
 .category{
-padding: 32px ;
+padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
@@ -357,6 +358,7 @@ border-top: none;
 }
 .footer-logo {
     display: inline-block ;
+    margin-bottom:16px;;
     }
 
 .footer-description {

@@ -247,7 +247,6 @@ font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    margin-bottom: 8px;
 }
 
 .team-list {
@@ -270,6 +269,7 @@ font-family: 'Raleway', sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .team-member-role {font-weight: 400;

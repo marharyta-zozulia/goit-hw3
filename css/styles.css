@@ -40,7 +40,7 @@ button{
 
 /* ----------HEADER----------- */
 .header {
-    padding-top: 24px;
+padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -73,6 +73,7 @@ h6
 .header-address {
     font-style: normal;
     color: #434455;
+    margin-left:  auto;
 
 }
 .header-contact-item{
@@ -103,7 +104,7 @@ h6
 
 }
 .header-contact-item{
-   margin-right: 40px;
+
 
 }
 .header-contact-item:last-child{
@@ -113,28 +114,38 @@ h6
 .header-contact-information{
     display: flex;
     gap: 40px;
-    margin-left: auto;
+    
 }
 
 .header-navigation{
     display: flex;
-    gap: 40px;
-    margin: 0 auto;
+    
+    
     align-items: center;
-    padding: 0 15px;
+    
 
 }
 .header-container{
     display: flex;
     align-items: center;
-    padding: 24px 0;
+   
 }
 .header-logo{
     margin-right: 76px;
     padding: 24px 0;
 }
-
-
+.header-logo-studio{
+color: #2e2f42;
+}
+.logo{
+font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 /* ------------------------------------- */
 .intro-section{
     background-color: #fff;
@@ -151,8 +162,9 @@ h6
     text-align: center;
     color: #fff;
     max-width: 496px;
-    padding: 188px 0 ;
-    margin: 0 auto;
+    margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 
 }
 .order-service-button {
@@ -266,9 +278,6 @@ h6
     text-align: center;
     color: #434455;}
 
-.team-member-name{
- margin-bottom: 8px;   
-}
 
 
 .member-info { 
@@ -306,7 +315,7 @@ font-weight: 700;
 }
 
 .category{
-padding: 32px 16px;
+padding: 32px ;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
@@ -348,7 +357,7 @@ border-top: none;
 }
 .footer-logo {
     display: inline-block ;
-    margin-bottom: 16px;}
+    }
 
 .footer-description {
     font-weight: 400;
